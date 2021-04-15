@@ -173,9 +173,18 @@ export default function Home() {
             </div>
           </div>
         </form>
+        <br></br>
+        <br></br>
         <div className={styles.resultContainer}>
-          <div>Total = {total}</div>
-          <div>Total - 50% = {total * 0.5}</div>
+          <div>
+            Total = <b>${total}</b>
+          </div>
+          <div>
+            Total - 70% = <b>${total * 0.7}</b>
+          </div>
+          <div>
+            Total - 50% = <b>${total * 0.5}</b>
+          </div>
         </div>
       </main>
     </div>
